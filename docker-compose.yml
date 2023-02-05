@@ -1,0 +1,14 @@
+version: '3'
+services:
+  web:
+    environment:
+      # - API_TRIAL_KEY=${API_TRIAL_KEY}
+      # - CORS=${CORS}
+      - API_TRIAL_KEY
+      - CORS
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python app.py
+    ports:
+      - '8080:8080'
