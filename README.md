@@ -52,7 +52,7 @@ pip3 install -U openai-whisper
 1. In your terminal you can run this command to start the backend proyect.
 
 ```bash
-$ CORS=['localhost:3000'] API_TRIAL_KEY=[KEY_COHERE] --fp16 False python3 app.py
+$ CORS=['localhost:3000'] API_TRIAL_KEY=[KEY_COHERE] python3 app.py
 ```
 
 2. You can run docker. Remember you need to add variables to .env

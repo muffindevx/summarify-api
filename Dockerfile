@@ -6,7 +6,7 @@ ENV API_TRIAL_KEY=''
 RUN apt update -y \
     && apt install -y curl git ffmpeg \
     && apt-get clean \
-    && pip install -U Flask cohere openai-whisper waitress flask-cors
+    && pip install -U flask cohere openai-whisper waitress flask-cors
 
 WORKDIR /app/
 
