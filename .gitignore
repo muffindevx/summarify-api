@@ -2,3 +2,7 @@
 .env.development
 .env.production
 .env.local
+
+*.log
+
+logs/*
